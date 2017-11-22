@@ -1,0 +1,423 @@
+.btn-lg{
+    line-height: 25px;
+    text-align: center;
+    border-radius: 25px;
+}
+.my-navbar {
+      padding:30px 0;
+      transition: all 0.5s linear;
+    }
+.my-navbar a{
+      background:transparent !important;
+      color:#fff;
+      text-decoration: none;
+        font-size:17px;
+    }
+.my-navbar a:hover {
+      color:#45bcf9 ;
+      background:transparent;
+      outline:0}
+.my-navbar a {
+			transition: color 0.5s ease-in-out;
+        }
+ .top-nav {padding:0;background:#000;}
+    /*button.navbar-toggle {background-color:#fbfbfb;}!*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*!*/
+button.navbar-toggle > span.icon-bar {background-color:#dedede}
+.icon-bar{
+background:#23527c;
+}
+
+.navbar-brand>span{
+	font-size:40px;
+}
+.navbar-text{
+	margin-right:10px;
+}
+
+
+.contnet-title{
+	font-size:50px;
+	text-align:center;
+	margin:50px 0;
+    color: #666;
+}
+
+.bg {
+    display: table;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+
+
+.video-bg{
+    width:100%;
+    height:100%;
+}
+.video-control{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background: rgba(34,34,34,0.8);*/
+}
+
+/*pc*/
+@media screen and (min-width:992px ){
+    
+ }
+ /*phone*/
+ @media screen and (max-width:767px ){
+    .video-control img{
+        width: 40%;
+        height: 30%;
+    }
+
+ }
+ 
+
+/*图片动画效果部分*/
+
+
+.card-container .card {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-container .card img{
+    width:300px;
+    height:200px;
+}
+
+
+/*主体推荐部分*/
+.recommend-training{
+	background: #fff;
+	text-align:center;
+	color:#584F60;
+	margin:60px 0;
+}
+.recommend-training p{
+	font-size:30px;
+	margin-bottom:40px;
+	font-weight: bold;
+    color:#666;
+}
+
+.recommend{
+	background: #3d3744;
+	width:100%;
+  height: 636px;
+  position: relative;
+	top:20px;
+}
+
+.training-item{
+	display: block;
+	width: 356px;
+	height: 207px;
+	margin-top: 10px;
+	position: relative;
+	top:-25px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.recommend_one{
+	background-image:url("../img/project/demo1.jpg");
+}
+.recommend_two{
+	background-image:url("../img/project/demo2.jpg");
+}
+.recommend_three{
+	background-image:url("../img/project/demo3.jpg");
+}
+
+
+.training-detail{
+	position: relative;
+	color: #fff;
+	padding: 18px;
+	font-size: 14px;
+	height: 100%;
+	box-sizing: border-box;
+    transition: all .5s;
+}
+
+.training-title{
+    position: absolute;
+	font-size: 20px;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+.training-subTitle{
+    position:absolute;
+    top:50px;
+}
+.training-population{
+	position: absolute;
+	bottom: 18px;
+	left: 18px;
+}
+
+/**/
+ .training-data {
+    position: absolute;
+    right:25px;
+    bottom: 53px;
+    color: #fff;
+    z-index: 1;
+    line-height: 1;
+}
+.training-data .data-text {
+	
+    font-size: 16px;
+    color: #8e8893;
+}
+ .training-data .data-time {
+    margin-top: 24px;
+}
+.training-data .data-min {
+    font-size: 44px;
+    font-weight: 700;
+}
+ .training-data .data-cont {
+    margin-top: 24px;
+}
+.training-text .text-cont {
+    font-size: 14px;
+    color: #8e8893;
+    margin: 16px 0 36px;
+    line-height: 1.6;
+}
+.training-data .data-num {
+    font-size: 26px;
+    font-weight: 700;
+		color: #fff;
+}
+.training-text .text-title {
+	margin-top: 22px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+}
+.training-text {
+	width:200px;
+    right: 25px;
+    bottom: 40px;
+
+    text-align: right;
+}
+
+
+
+.training-wrap .body-wrap {
+    position: absolute;
+    left: 460px;
+    top: 58px;
+    width: 340px;
+    height: 538px;
+}
+
+
+
+/*pc*/
+@media screen and (min-width:992px ){
+    .body-wrap .circle-pic {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .body-wrap .body-pic {
+        position: absolute;
+        top: 0;
+        left: 73px;
+    }
+    .training-wrap .data-pic{
+        position: absolute;
+        top: 0px;
+        right: 160px;
+    }
+ }
+ /*pad*/
+ @media screen and (min-width:768px ) and (max-width:991px){
+    .training-data{
+        display: none;
+     }
+     
+     .training-wrap .data-pic{
+      display: none;
+     }
+     .body-wrap .circle-pic{
+        position: absolute;
+        left: -144px;
+        bottom: 0;
+     }
+     .body-wrap .body-pic{
+        position: absolute;
+        top: 0px;
+        left:-88px;
+     }
+ }
+ /*phone*/
+ @media screen and (max-width:767px ){
+
+    .training-data{
+       display: none;
+    }
+    .training-wrap .data-pic,
+    .body-wrap .circle-pic,
+    .training-wrap .body-wrap,
+    .body-wrap .body-pic{
+       display: none;
+     }
+ }
+ 
+
+
+/*run部分*/
+.run-training{
+       background: #fff;
+       text-align:center;
+       color:#584F60;
+       margin:150px 0;
+   }
+
+.run-training p{
+    font-size:30px;
+    color:#666;
+    margin-bottom:40px;
+    font-weight: bold;
+}
+.running{
+    background-image:url("../img/project/runbg.jpg");
+    width:100%;
+    height: 636px;
+    position: relative;
+    top:50px;
+}
+.running  .run-text-wrap{
+    position: absolute;
+    top: 15px;
+    left: 400px;
+}
+.run-text-wrap .run-text-title{
+    color:#fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.run-text-wrap .run-text-subtitle{
+    color:#f5f5f5;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+ .running .run-track-wrap{
+    position: absolute;
+    top: 138px;
+    left: 45px;
+}
+
+
+.running .run-track-wrap #run-data{
+	position: absolute;
+	left: 40px;
+    top: 310px;
+}
+.running .run-track-wrap .run-data-title{
+    position: relative;
+    bottom:-50px;
+    font-size: 16px;
+    color:#999;
+}
+.running .run-track-wrap .run-data-title span:nth-child(2){
+    display: inline-block;
+    margin:0 50px;
+}
+
+.run-record{
+    width: 384px;
+    position: absolute;
+    top: -23px;
+    right: 110px;
+    z-index: 2;
+}
+.run-record .morning-running {
+    position: relative;
+    top: -35px;
+    right: 56px;
+    opacity: 0.9;
+    width:300px;
+    height:300px;
+    padding: 22px 18px 20px;
+}
+.run-record .frequency{
+    position: relative;
+    color:#fff;
+    top: 68px;
+    left: 17px;
+}
+
+.running-frequency img{
+    position: absolute;
+    right:-110px;
+}
+
+/*pc*/
+@media screen and (min-width:992px ){
+    .running  .run-text-wrap{
+        position: absolute;
+        top: 15px;
+        left: 130px;
+    }
+    .running-frequency img,{
+        position: relative;
+        right:10px;
+    }
+    .run-record .frequency{
+        position: relative;
+        color:#fff;
+        top: 68px;
+        left: 135px;
+        z-index: 1;
+    }
+}
+/*pad*/
+@media screen and (min-width:768px ) and (max-width:991px){
+    .run-record .frequency,
+    .running-frequency img,
+    .run-record .morning-running img{
+        display: none;
+        z-index: -1;
+    }
+}
+/*phone*/
+@media screen and (max-width:767px ){
+    .run-record .frequency,
+    .running-frequency img,
+    .run-record .morning-running img{
+        display: none;
+        z-index: -1;
+    }
+   
+    .running .run-text-wrap{
+       
+        left:245px;
+    }
+}

@@ -1,0 +1,147 @@
+
+.navbar-text a {
+		color: #9d9d9d;
+		text-decoration: none;
+}
+
+.navbar-text a:hover {
+		color: #fff;
+}
+
+.carousel-caption p{
+		color:#fff;
+		font-size: 32px;
+}
+.selection{
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+}
+
+.box {
+		width: 500px;
+		height:200px;
+		padding: 10px;
+		margin: 10px;
+		border: 1px solid #ccc;
+		background: #f7f7f7;
+		box-shadow: 0 0 8px #ccc;
+}
+
+.box:hover {
+		box-shadow: 0 0 10px #999;
+}
+
+.box img {
+		width: 240px;
+		height:135px;
+}
+
+.navbar-brand > span {
+		font-size: 40px;
+}
+
+.section img {
+		min-height: 300px;
+		width: 100%;
+
+}
+
+.info_nav {
+		height: 71px;
+		position: relative;
+}
+
+.info-content {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: #fff;
+		z-index: 1;
+		border-bottom: 1px solid #ddd;
+}
+
+.list-inline {
+		margin: 0 auto;
+		position: relative;
+		text-align: center;
+}
+
+.list-inline li {
+		width: 100px;
+		height: 70px;
+		z-index: 10;
+		cursor: pointer;
+		text-align: center;
+		line-height: 70px;
+}
+
+.info-content span {
+		display: block;
+		width: 100px;
+		height: 70px;
+		line-height: 70px;
+		position: absolute;
+		font-size: 16px;
+		color: #aaa;
+		z-index: -10;
+}
+.info-content-fixed{
+	position: fixed;
+}
+.list-inline .active span:after {
+		content: "";
+		display: block;
+		width: 30px;
+		height: 3px;
+		background: #282a2e;
+		position: absolute;
+		left: 35px;
+		bottom: 0;
+}
+
+.navbar {
+		margin-bottom: 0;
+}
+
+.copyright {
+		color: #666;
+		text-align: center;
+		line-height: 50px;
+}
+
+.box-title {
+		color: #333;
+		width: 240px;
+		font-size: 16px;
+		position: relative;
+		top: -110px;
+}
+
+.box-title a {
+		color: #333;
+		text-decoration: none;
+}
+
+.box-title a:hover {
+		color: #1194E0;
+
+}
+
+.box-img {
+		position: relative;
+		left: 248px;
+}
+
+.comment {
+		position: absolute;
+		top: 104px;
+		margin-bottom: 0;
+}
+
+.breadcrumb a {
+		text-decoration: none;
+
+}
