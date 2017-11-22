@@ -1,6 +1,6 @@
 #vue+boot
-#一个健身app网站
 
+#一个健身app网站
 
 ----------
 用axios替换了vue-resource
