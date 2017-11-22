@@ -1,6 +1,6 @@
 # tpls
 
-> A Vue.js project
+> A Vue+boot project
 
 ## Build Setup
 
